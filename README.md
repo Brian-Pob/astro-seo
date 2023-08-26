@@ -41,7 +41,7 @@ import { SEO } from "astro-seo";
       openGraph={{
         basic: {
           title: "A Very Descriptive Title",
-          type: "A type.",
+          type: "website",
           image: "https://user-images.githubusercontent.com/5182256/131216951-8f74f425-f775-463d-a11b-0e01ad9fce8d.png",
         }
       }}
@@ -67,6 +67,8 @@ import { SEO } from "astro-seo";
     <body> // ... body </body>
 </html>
 ```
+
+To see an example of what this looks like after building, [click here](/generated.md).
 
 ## Supported Props
 
